@@ -1,0 +1,13 @@
+{
+    "taskName": "Run client.nim",
+    "command": "nim",
+    "args": ["c", "-r", "client.nim"],
+    "options": {
+        "cwd": "${workspaceRoot}"
+    },
+    "type": "shell",
+    "group": {
+        "kind": "build",
+        "isDefault": true
+    }
+}
