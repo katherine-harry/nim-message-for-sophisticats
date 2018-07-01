@@ -1,7 +1,7 @@
 {
     "taskName": "Run client.nim",
     "command": "nim",
-    "args": ["c", "-r", "client.nim"],
+    "args": ["c", "-r", "--colors:on", "--hints:off", "client.nim"],
     "options": {
         "cwd": "${workspaceRoot}"
     },
